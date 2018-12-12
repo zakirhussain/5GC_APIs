@@ -33,21 +33,21 @@ paths:
                 minItems: 0
                 description: individual BDT policy subscription.
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
     post:
       summary:  Create a new chargeable party transaction resource
@@ -76,30 +76,30 @@ paths:
                 content:
                   application/json:
                     schema:
-                      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/NotificationData'
+                      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/NotificationData'
               responses:
                 '200':
                   description: OK (The successful acknowledgement of the notification with a body)
                 '400':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
                 '401':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
                 '403':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
                 '409':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
                 '411':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/411'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/411'
                 '412':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
                 '413':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/413'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/413'
                 '500':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
                 '503':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
                 default:
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
       responses:
         '201':
           description: successful creation of a chargeable party resource
@@ -108,25 +108,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/ChargeableParty'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '409':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
         '411':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/411'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/411'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '413':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/413'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/413'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
   /{scsAsId}/transactions/{transactionId}:
     get:
@@ -154,21 +154,21 @@ paths:
               schema:
                 $ref: '#/components/schemas/ChargeableParty'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
     patch:
       summary:  Updates a existing chargeable party resource for a given SCS/AS and transaction Id.
@@ -202,27 +202,27 @@ paths:
               schema:
                 $ref: '#/components/schemas/ChargeableParty'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '409':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
         '411':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/411'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/411'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '413':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/413'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/413'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
     delete:
       summary:  deletes a chargeable party resource for a given SCS/AS and a transcation Id.
@@ -245,56 +245,56 @@ paths:
         '200':
           description: successful deletion of an resouce of chargeable party
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 components:
   schemas: 
     ChargeableParty:
       type: object
       properties:
         self:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Link'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Link'
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
         notificationDestination:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Link'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Link'
         requestTestNotification:
           type: boolean
           description: Set to true by the SCS/AS to request the SCEF to send a test notification as defined in subclause 5.2.5.3. Set to false or omitted otherwise.
         websockNotifConfig:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/WebsockNotifConfig'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/WebsockNotifConfig'
         ipv4Addr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Ipv4Addr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Ipv4Addr'
         ipv6Addr :
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Ipv6Addr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Ipv6Addr'
         flowInfo:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
           minItems: 1
           description: Describes the application flows.
         sponsorInformation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/SponsorInformation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/SponsorInformation'
         sponsoringEnabled:
           type: boolean
           description: Indicates sponsoring status.
         referenceId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/BdtReferenceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/BdtReferenceId'
         usageThreshold:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/UsageThreshold'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/UsageThreshold'
       required:
         - notificationDestination
         - flowInfo
@@ -306,13 +306,13 @@ components:
         flowInfo:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
           minItems: 0
           description: Describes the application flows.
         sponsoringEnabled:
           type: boolean
           description: Indicates sponsoring status.
         referenceId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/BdtReferenceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/BdtReferenceId'
         usageThreshold:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/UsageThresholdRm'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/UsageThresholdRm'

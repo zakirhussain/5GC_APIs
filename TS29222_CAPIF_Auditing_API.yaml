@@ -28,27 +28,27 @@ paths:
           in: query
           description: String identifying a IPv4 address of the API invoker. This attribute shall not be present if ipv6Addr attribute is present.
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Ipv4Addr'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Ipv4Addr'
         - name: ipv6Addr
           in: query
           description: String identifying a IPv4 address of the API invoker. This attribute shall not be present if ipv6Addr attribute is present.
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Ipv6Addr'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Ipv6Addr'
         - name: port
           in: query
           description: Port. This attribute shall be present if either ipv4Addr or the ipv6Addr attribute is present.
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Port'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Port'
         - name: timeRangeStart
           in: query
           description: Start time of the invocation time range.
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/DateTime'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/DateTime'
         - name: timeRangeEnd
           in: query
           description: End time of the invocation time range.
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/DateTime'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/DateTime'
         - name: apiId
           in: query
           description: String identifying the API invoked.
@@ -83,7 +83,7 @@ paths:
           in: query
           description: Interface description of the API invoked.
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/InterfaceDescription'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/InterfaceDescription'
       responses:
         '200':
           description: Result of the query operation along with fetched service API invocation log data.
@@ -92,30 +92,30 @@ paths:
               schema:
                 $ref: '#/components/schemas/InvocationLogs'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '409':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '414':
           description: URI Too Long
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/ProblemDetails'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 components:
   schemas:
     InvocationLogs:
       type: array
       items:
-        $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29222_CAPIF_Logging_API_Invocation_API.yaml#/components/schemas/InvocationLogs'
+        $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29222_CAPIF_Logging_API_Invocation_API.yaml#/components/schemas/InvocationLogs'

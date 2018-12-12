@@ -33,23 +33,23 @@ paths:
               schema:
                 $ref: '#/components/schemas/AnalyticsData'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/responses/401'
         '404':
           description: Indicates that the NWDAF Analytics resource does not exist.
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         '414':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/414'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/responses/414'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/responses/default'
 components:
   schemas:
     AnalyticsData:
@@ -58,11 +58,11 @@ components:
         sliceLoadLevelInfos:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29520_Nnwdaf_EventsSubscription.yaml#/components/schemas/SliceLoadLevelInformation'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29520_Nnwdaf_EventsSubscription.yaml#/components/schemas/SliceLoadLevelInformation'
           minItems: 1
           description: The slices and there load level information.
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
       required:
         - sliceLoadLevelInfos
         - supportedFeatures
@@ -70,11 +70,11 @@ components:
       type: object
       properties:
         anySlice:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29520_Nnwdaf_EventsSubscription.yaml#/components/schemas/AnySlice'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29520_Nnwdaf_EventsSubscription.yaml#/components/schemas/AnySlice'
         snssai:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/Snssai'
           minItems: 0
           description: Identification(s) of network slice to which the subscription belongs. When eventId is "Load_level_Information", either information about slice(s) identified by snssai, or anySlice set to "TRUE" shall be included.
     EventId:

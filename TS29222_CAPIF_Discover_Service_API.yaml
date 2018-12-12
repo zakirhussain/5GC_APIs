@@ -39,19 +39,19 @@ paths:
           in: query
           description: Communication type used by the API (e.g. request/response or subscribe/notify).
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/CommunicationType'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/CommunicationType'
         - name: interfaceDescription
           in: query
           description: Interface details (e.g. domain name, ipv4/6Addr, port).
           schema:
             type: array
             items:
-              $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/InterfaceDescription'
+              $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/InterfaceDescription'
         - name: dataFormat
           in: query
           description: Data formats used by the API (e.g. serialization protocol JSON used).
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/DataFormat'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/DataFormat'
       responses:
         '200':
           description: The response body contains the result of the search over the list of registered APIs.
@@ -60,27 +60,27 @@ paths:
               schema:
                 $ref: '#/components/schemas/DiscoveredAPIs'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '409':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '414':
           description: URI Too Long
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/ProblemDetails'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 components:
   schemas:
     DiscoveredAPIs:
@@ -92,7 +92,7 @@ components:
             type: string
             description: Identifier of the service API
           serviceAPIDescription:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/ServiceAPIDescription'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29222_CAPIF_Publish_Service_API.yaml#/components/schemas/ServiceAPIDescription'
         required:
           - apiId
           - serviceAPIDescription

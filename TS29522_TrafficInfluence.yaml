@@ -32,21 +32,21 @@ paths:
                 items:
                   $ref: '#/components/schemas/TrafficInfluSub'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
     post:
       summary: Creates a new subscription resource 
@@ -73,25 +73,25 @@ paths:
                 '204':
                   description: No Content (successful notification)
                 '400':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
                 '401':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
                 '403':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
                 '409':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
                 '411':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/411'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/411'
                 '412':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
                 '413':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/413'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/413'
                 '500':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
                 '503':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
                 default:
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
       responses:
         '201':
           description: Created (Successful creation of subscription)
@@ -100,25 +100,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/TrafficInfluSub'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '409':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
         '411':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/411'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/411'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '413':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/413'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/413'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
   /{afId}/subscriptions/{subscriptionId}:
     parameters:
@@ -146,21 +146,21 @@ paths:
               schema:
                 $ref: '#/components/schemas/TrafficInfluSub'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
     put:
       summary: Updates/replaces an existing subscription resource
@@ -181,27 +181,27 @@ paths:
               schema:
                 $ref: '#/components/schemas/TrafficInfluSub'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '409':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
         '411':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/411'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/411'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '413':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/413'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/413'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
     patch:
       summary: Updates/replaces an existing subscription resource
@@ -221,27 +221,27 @@ paths:
               schema:
                 $ref: '#/components/schemas/TrafficInfluSub'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '409':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/409'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/409'
         '411':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/411'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/411'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '413':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/413'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/413'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
     delete:
       summary: Deletes an already existing subscription
@@ -251,21 +251,21 @@ paths:
         '204':
           description: No Content (Successful deletion of the existing subscription)
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/400'
         '401':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/401'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/401'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/404'
         '412':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/412'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/412'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/503'
         default:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/responses/default'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/responses/default'
 
 components:
   schemas: 
@@ -282,11 +282,11 @@ components:
           type: boolean
           description: Identifies whether an application can be relocated once a location of the application has been selected.
         dnn:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Dnn'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/Dnn'
         snssai:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/Snssai'
         externalGroupId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/ExternalGroupId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/ExternalGroupId'
         anyUeInd:
           type: boolean
           description: Identifies whether the AF request applies to any UE. This attribute shall set to "true" if applicable for any UE, otherwise, set to "false".
@@ -297,46 +297,46 @@ components:
           minItems: 1
           description: Identifies the requirement to be notified of a UP path management event and the activity.
         gpsi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/Gpsi'
         ipv4Addr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Ipv4Addr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Ipv4Addr'
         ipv6Addr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Ipv6Addr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Ipv6Addr'
         macAddr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/macAddr48'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/macAddr48'
         dnaiChgType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DnaiChangeType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/DnaiChangeType'
         notificationDestination:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Link'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Link'
         requestTestNotification:
           type: boolean
           description: Set to true by the SCS/AS to request the NEF to send a test notification as defined in subclause 5.2.5.3. Set to false or omitted otherwise.
         websockNotifConfig:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/WebsockNotifConfig'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/WebsockNotifConfig'
         self:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/Link'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/Link'
         trafficFilters:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
           minItems: 1
           description: Identifies IP packet filters.
         ethTrafficFilters:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29512_Npcf_SMPolicyControl.yaml#/components/schemas/EthFlowDescription'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29512_Npcf_SMPolicyControl.yaml#/components/schemas/EthFlowDescription'
           minItems: 1
           description: Identifies Ethernet packet filters.
         trafficRoutes:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RouteToLocation'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/RouteToLocation'
           minItems: 1
           description: Identifies the N6 traffic routing requirement.
         tempValidities:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29514_Npcf_PolicyAuthorization.yaml#/components/schemas/TemporalValidity'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29514_Npcf_PolicyAuthorization.yaml#/components/schemas/TemporalValidity'
         validGeoZoneIds:
           type: array
           items:
@@ -344,7 +344,7 @@ components:
           minItems: 1
           description: Identifies a geographic zone that the AF request applies only to the traffic of UE(s) located in this specific zone.
         suppFeat:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
     TrafficInfluSubPatch:
       type: object
       properties:
@@ -355,25 +355,25 @@ components:
         trafficFilter:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29122_CommonData.yaml#/components/schemas/FlowInfo'
           minItems: 1
           description: Identifies packet filters.
         ethTrafficFilters:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29512_Npcf_SMPolicyControl.yaml#/components/schemas/EthFlowDescription'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29512_Npcf_SMPolicyControl.yaml#/components/schemas/EthFlowDescription'
           minItems: 1
           description: Identifies Ethernet packet filters.
         trafficRoutes:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RouteToLocation'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/RouteToLocation'
           minItems: 1
           description: Identifies the N6 traffic routing requirement.
         tempValidities:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29514_Npcf_PolicyAuthorization.yaml#/components/schemas/TemporalValidity'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29514_Npcf_PolicyAuthorization.yaml#/components/schemas/TemporalValidity'
           nullable: true
         validGeoZoneIds:
           type: array
@@ -392,13 +392,13 @@ components:
           type: boolean
           description: Identifies whether the AF request is active or inactive. Shall be present if the "subscribedEvent" sets to "ACTIVITY".
         dnaiChgType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DnaiChangeType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/DnaiChangeType'
         sourceTrafficRoute:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RouteToLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/RouteToLocation'
         subscribedEvent:
           $ref: '#/components/schemas/SubscribedEvent'
         targetTrafficRoute:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RouteToLoaction'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/RouteToLoaction'
       required:
         - dnaiChgType
         - subscribedEvent

@@ -158,13 +158,13 @@ components:
         geographicArea:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29572_Nlmf_Location.yaml#/components/schemas/GeographicArea'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29572_Nlmf_Location.yaml#/components/schemas/GeographicArea'
           minItems: 0
           description: Identifies a geographic area of the user where the UE is located.
         civicAddress:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29572_Nlmf_Location.yaml#/components/schemas/CivicAddress'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29572_Nlmf_Location.yaml#/components/schemas/CivicAddress'
           minItems: 0
           description: Identifies a civic address of the user where the UE is located.
     ProblemDetails:

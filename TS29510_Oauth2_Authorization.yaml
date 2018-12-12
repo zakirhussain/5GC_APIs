@@ -74,11 +74,11 @@ components:
           enum:
             - client_credentials
         nfInstanceId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         nfType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29510_Nnrf_NFManagement.yaml#/components/schemas/NFType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29510_Nnrf_NFManagement.yaml#/components/schemas/NFType'
         targetNfType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29510_Nnrf_NFManagement.yaml#/components/schemas/NFType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29510_Nnrf_NFManagement.yaml#/components/schemas/NFType'
         scope:
           type: string
           pattern: '^([a-zA-Z0-9_]*[*]{0,1})$'
@@ -108,13 +108,13 @@ components:
         - expiration
       properties:
         issuer:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         subject:
           type: string
         audience:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f10/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         scope:
           type: string
           pattern: '^([a-zA-Z0-9_]*[*]{0,1})$'

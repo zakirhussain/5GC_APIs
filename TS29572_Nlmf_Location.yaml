@@ -30,7 +30,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
 components:
   securitySchemes:
     oAuth2ClientCredentials:
@@ -57,15 +57,15 @@ components:
           items:
             $ref: '#/components/schemas/SupportedGADShapes'
         supi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
         pei:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Pei'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Pei'
         gpsi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Gpsi'
         ecgi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ecgi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ecgi'
         ncgi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ncgi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ncgi'
         priority:
           $ref: '#/components/schemas/LcsPriority'
         velocityRequested:
@@ -94,9 +94,9 @@ components:
           items:
             $ref: '#/components/schemas/GnssPositioningMethodAndUsage'
         ecgi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ecgi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ecgi'
         ncgi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ncgi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ncgi'
         altitude:
           $ref: '#/components/schemas/Altitude'
     GeographicArea:

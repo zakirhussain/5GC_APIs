@@ -58,15 +58,15 @@ paths:
                 '204':
                   description: successful notification 
                 '400': 
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/400'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/400'
                 '403': 
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/403'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/403'
                 '404': 
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/404'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/404'
                 '500': 
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/500'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/500'
                 '503': 
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/503'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/503'
 
       responses:
         '201':
@@ -297,21 +297,21 @@ paths:
               schema:
                 $ref: '#/components/schemas/SmContextRetrievedData'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/400'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/404'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/503'
         default:
           description: unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
   
   /sm-contexts/{smContextRef}/modify:  
     post:
@@ -623,17 +623,17 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/400'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/404'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/503'
 
   
   /pdu-sessions:
@@ -699,17 +699,17 @@ paths:
                   content:
                     application/problem+json:
                      schema:
-                      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'  
+                      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'  
                 '400':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/400'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/400'
                 '403':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/403'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/403'
                 '404':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/404'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/404'
                 '500':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/500'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/500'
                 '503':
-                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/503'
+                  $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/503'
   
   
         update:  
@@ -948,21 +948,21 @@ paths:
         '204':
           description: successful release of a PDU session
         '400':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/400'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/400'
         '403':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/403'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/403'
         '404':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/404'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/404'
         '500':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/500'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/500'
         '503':
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/responses/503'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/responses/503'
         default:
           description: unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
   
 components:
   securitySchemes:
@@ -981,65 +981,65 @@ components:
       type: object
       properties:
         supi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
         unauthenticatedSupi:
           type: boolean
           default:  false
         pei:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Pei'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Pei'
         gpsi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Gpsi'
         pduSessionId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
         dnn:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Dnn'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Dnn'
         sNssai:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Snssai'
         hplmnSnssai:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Snssai'
         servingNfId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         guami:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Guami'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Guami'
         requestType:
           $ref: '#/components/schemas/RequestType'
         n1SmMsg:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         anType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/AccessType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/AccessType'
         presenceInLadn:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29518_Namf_EventExposure.yaml#/components/schemas/PresenceState'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29518_Namf_EventExposure.yaml#/components/schemas/PresenceState'
         ueLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         ueTimeZone:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/TimeZone'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/TimeZone'
         addUeLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         addUeLocTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
         smContextStatusUri:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         hSmfUri:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         additionalHsmfUri:
           type: array
           items: 
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         oldPduSessionId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
         pduSessionsActivateList:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
           minItems: 0
         ueEpsPdnConnection:
           $ref: '#/components/schemas/EpsPdnCnxContainer'
         hoState:
           $ref: '#/components/schemas/HoState'
         pcfId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
         selMode:
           $ref: '#/components/schemas/DnnSelectionMode'
         backupAmfInfo:
@@ -1055,15 +1055,15 @@ components:
       type: object
       properties:
         pduSessionId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
         sNssai:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Snssai'
         upCnxState:
           $ref: '#/components/schemas/UpCnxState'
         n2SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         n2SmInfoType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uinteger'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uinteger'
         allocatedEbiList:
           type: array
           items:
@@ -1072,35 +1072,35 @@ components:
         hoState:
           $ref: '#/components/schemas/HoState'
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
 
     SmContextUpdateData:
       type: object
       properties:
         pei:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Pei'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Pei'
         gpsi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Gpsi'
         servingNfId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         guami:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Guami'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Guami'
         backupAmfInfo:
           type: array
           items:
             $ref: '#/components/schemas/BackupAmfInfo'
         anType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/AccessType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/AccessType'
         presenceInLadn:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29518_Namf_EventExposure.yaml#/components/schemas/PresenceState'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29518_Namf_EventExposure.yaml#/components/schemas/PresenceState'
         ueLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         ueTimeZone:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/TimeZone'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/TimeZone'
         addUeLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         addUeLocTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
         upCnxState:
           $ref: '#/components/schemas/UpCnxState'
         hoState:
@@ -1109,15 +1109,15 @@ components:
           type: boolean
           default: false
         n1SmMsg:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         n2SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         n2SmInfoType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uinteger'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uinteger'
         targetServingNfId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         smContextStatusUri:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         dataForwarding:
           type: boolean
           default: false
@@ -1160,11 +1160,11 @@ components:
             $ref: '#/components/schemas/EbiArpMapping'
           minItems: 0
         n1SmMsg:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         n2SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         n2SmInfoType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uinteger'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uinteger'
         epsBearerSetup:
           type: array
           items:
@@ -1179,13 +1179,13 @@ components:
         cause:
           $ref: '#/components/schemas/Cause'
         ueLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         ueTimeZone:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/TimeZone'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/TimeZone'
         addUeLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         addUeLocTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
         vsmfReleaseOnly:
           type: boolean
           default: false
@@ -1203,20 +1203,20 @@ components:
       type: object
       properties:
         supi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
         unauthenticatedSupi:
           type: boolean
           default: false
         pei:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Pei'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Pei'
         pduSessionId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
         dnn:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Dnn'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Dnn'
         sNssai:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Snssai'
         vsmfId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         requestType:
           $ref: '#/components/schemas/RequestType'
         epsBearerId:
@@ -1225,31 +1225,31 @@ components:
             $ref: '#/components/schemas/EpsBearerId'
           minItems: 0
         pgwS8cFteid:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
         vsmfPduSessionUri:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         vcnTunnelInfo:
           $ref: '#/components/schemas/TunnelInfo'
         anType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/AccessType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/AccessType'
         ueLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         ueTimeZone:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/TimeZone'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/TimeZone'
         addUeLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         addUeLocTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
         gpsi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Gpsi'
         n1SmInfoFromUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         unknownN1SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
         hPcfId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         hoPreparationIndication:
           type: boolean
         selMode:
@@ -1265,31 +1265,31 @@ components:
       type: object
       properties:
         pduSessionType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PduSessionType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PduSessionType'
         sscMode:
           type: string
         hcnTunnelInfo:
           $ref: '#/components/schemas/TunnelInfo'
         sessionAmbr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ambr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ambr'
         qosFlowsSetupList:
           type: array
           items:
             $ref: '#/components/schemas/QosFlowSetupItem'
           minItems: 1
         pduSessionId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PduSessionId'
         sNssai:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Snssai'
         enablePauseCharging:
           type: boolean
           default: false
         ueIpv4Address:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ipv4Addr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ipv4Addr'
         ueIpv6Prefix:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ipv6Prefix'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ipv6Prefix'
         n1SmInfoToUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         epsPdnCnxInfo:
           $ref: '#/components/schemas/EpsPdnCnxInfo'
         epsBearerInfo:
@@ -1298,9 +1298,9 @@ components:
             $ref: '#/components/schemas/EpsBearerInfo'
           minItems: 1
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
         upSecurity:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UpSecurity'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UpSecurity'
       required:
         - pduSessionType
         - sscMode
@@ -1314,27 +1314,27 @@ components:
         requestIndication:
           $ref: '#/components/schemas/RequestIndication'
         pei:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Pei'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Pei'
         vcnTunnelInfo:
           $ref: '#/components/schemas/TunnelInfo'
         anType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/AccessType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/AccessType'
         ueLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         ueTimeZone:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/TimeZone'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/TimeZone'
         addUeLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         addUeLocTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
         pauseCharging:
           type: boolean
         pti:
           $ref: '#/components/schemas/ProcedureTransactionId'
         n1SmInfoFromUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         unknownN1SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         qosFlowsRelNotifyList:
           type: array
           items:
@@ -1371,7 +1371,7 @@ components:
       type: object
       properties:
         n1SmInfoToUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
 
     ReleaseData:
       type: object
@@ -1379,13 +1379,13 @@ components:
         cause:
           $ref: '#/components/schemas/Cause'
         ueLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         ueTimeZone:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/TimeZone'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/TimeZone'
         addUeLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         addUeLocTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
 
     ReleasedData:
       type: object
@@ -1396,7 +1396,7 @@ components:
         requestIndication:
           $ref: '#/components/schemas/RequestIndication'
         sessionAmbr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ambr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ambr'
         qosFlowsAddModRequestList:
           type: array
           items:
@@ -1425,7 +1425,7 @@ components:
         pti:
           $ref: '#/components/schemas/ProcedureTransactionId'
         n1SmInfoToUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         cause:
           $ref: '#/components/schemas/Cause'
       required:
@@ -1455,17 +1455,17 @@ components:
             $ref: '#/components/schemas/QosFlowItem'
           minItems: 0
         n1SmInfoFromUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         unknownN1SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         ueLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         ueTimeZone:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/TimeZone'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/TimeZone'
         addUeLocation:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/UserLocation'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/UserLocation'
         addUeLocTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
 
     StatusNotification:
       type: object
@@ -1479,7 +1479,7 @@ components:
       type: object
       properties:
         qfi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Qfi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Qfi'
         cause:
           $ref: '#/components/schemas/Cause'
       required:
@@ -1489,9 +1489,9 @@ components:
       type: object
       properties:
         qfi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Qfi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Qfi'
         qosRules:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
         qosFlowProfile:
           $ref: '#/components/schemas/QosFlowProfile'
       required:
@@ -1502,9 +1502,9 @@ components:
       type: object
       properties:
         qfi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Qfi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Qfi'
         qosRules:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
         qosFlowProfile:
           $ref: '#/components/schemas/QosFlowProfile'
       required:
@@ -1514,9 +1514,9 @@ components:
       type: object
       properties:
         qfi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Qfi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Qfi'
         qosRules:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
       required:
         - qfi
     
@@ -1524,35 +1524,35 @@ components:
       type: object
       properties:
         5qi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/5qi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/5qi'
         nonDynamic5qi:
           $ref: '#/components/schemas/NonDynamic5qi'
         dynamic5qi:
           $ref: '#/components/schemas/Dynamic5qi'
         arp:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Arp'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Arp'
         gbrQosFlowInfo:
           $ref: '#/components/schemas/GbrQosFlowInformation'
         rqa:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ReflectiveQosAttribute'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ReflectiveQosAttribute'
     
     GbrQosFlowInformation:
       type: object
       properties:
         maxFbrDl:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/BitRate'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/BitRate'
         maxFbrUl:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/BitRate'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/BitRate'
         guaFbrDl:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/BitRate'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/BitRate'
         guaFbrUl:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/BitRate'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/BitRate'
         notifControl:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NotificationControl'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NotificationControl'
         maxPacketLossRateDl:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PacketLossRate'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PacketLossRate'
         maxPacketLossRateUl:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PacketLossRate'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PacketLossRate'
       required:
         - maxFbrDl
         - maxFbrUl
@@ -1563,7 +1563,7 @@ components:
       type: object
       properties:
         qfi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Qfi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Qfi'
         notificationCause:
           $ref: '#/components/schemas/NotificationCause'
       required:
@@ -1574,17 +1574,17 @@ components:
       type: object
       properties:
         priorityLevel:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/5qiPriorityLevel'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/5qiPriorityLevel'
         packetDelBudget:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PacketDelBudget'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PacketDelBudget'
         packetErrRate:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PacketErrRate'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PacketErrRate'
         delayCritical:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DelayCritical'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DelayCritical'
         averWindow:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/AverWindow'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/AverWindow'
         maxDataBurstVol:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/MaxDataBurstVol'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/MaxDataBurstVol'
       required:
         - priorityLevel
         - packetDelBudget
@@ -1594,11 +1594,11 @@ components:
       type: object
       properties:
         priorityLevel:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/5qiPriorityLevel'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/5qiPriorityLevel'
         averWindow:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/AverWindow'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/AverWindow'
         maxDataBurstVol:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/MaxDataBurstVol'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/MaxDataBurstVol'
     
     SmContextRetrieveData:
       type: object
@@ -1625,9 +1625,9 @@ components:
       type: object
       properties:
         ipv4Addr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ipv4Addr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ipv4Addr'
         ipv6Addr:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Ipv6Addr'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Ipv6Addr'
         gtpTeid:
           $ref: '#/components/schemas/Teid'
       required:
@@ -1648,9 +1648,9 @@ components:
       type: object
       properties:
         pgwS8cFteid:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
         pgwNodeName:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
       required:
         - pgwS8cFteid
     
@@ -1660,9 +1660,9 @@ components:
         ebi:
           $ref: '#/components/schemas/EpsBearerId'
         pgwS8uFteid:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
         bearerLevelQoS:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Bytes'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Bytes'
       required:
         - ebi
         - pgwS8uFteid
@@ -1682,7 +1682,7 @@ components:
         epsBearerId:
           $ref: '#/components/schemas/EpsBearerId'
         arp:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Arp'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Arp'
       required:
         - epsBearerId
         - arp
@@ -1691,9 +1691,9 @@ components:
       type: object
       properties:
         error:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         n1SmMsg:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
       required:
         - error
     
@@ -1701,13 +1701,13 @@ components:
       type: object
       properties:
         error:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         n1SmMsg:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         n2SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         n2SmInfoType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uinteger'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uinteger'
         upCnxState:
           $ref: '#/components/schemas/UpCnxState'
       required:
@@ -1717,11 +1717,11 @@ components:
       type: object
       properties:
         error:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         n1smCause:
           type: string
         n1SmInfoToUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
       required:
         - error
     
@@ -1729,13 +1729,13 @@ components:
       type: object
       properties:
         error:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         pti:
           $ref: '#/components/schemas/ProcedureTransactionId'
         n1smCause:
           type: string
         n1SmInfoToUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
       required:
         - error
 
@@ -1743,15 +1743,15 @@ components:
       type: object
       properties:
         error:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         pti:
           $ref: '#/components/schemas/ProcedureTransactionId'
         n1smCause:
           type: string
         n1SmInfoFromUe:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
         unknownN1SmInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/RefToBinaryData'
       required:
         - error
 
@@ -1759,11 +1759,11 @@ components:
       type: object
       properties:
         backupAmfName:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/AmfId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/AmfId'
         guamiList:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Guami'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Guami'
       required:
         - backupAmfName
 
@@ -1777,7 +1777,7 @@ components:
       maximum: 255
       
     EpsBearerId:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uinteger'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uinteger'
       
     EpsPdnCnxContainer:
       type: string

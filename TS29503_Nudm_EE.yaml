@@ -27,7 +27,7 @@ paths:
           description: GPSI of the user
           required: true
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Gpsi'
       requestBody:
         content:
           application/json:
@@ -48,7 +48,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
       callbacks:
         eventOccurrenceNotification:
           '{request.body#/callbackReference}':
@@ -75,7 +75,7 @@ paths:
           description: GPSI of the user
           required: true
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Gpsi'
         - name: subscriptionId
           in: path
           description: Id of the EE Subscription
@@ -106,7 +106,7 @@ components:
         - monitoringConfiguration
       properties:
         callbackReference:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         monitoringConfiguration:
           description : A map (list of key-value pairs where ReferenceId serves as key) of MonitoringConfigurations
           type: object
@@ -114,7 +114,7 @@ components:
             $ref: '#/components/schemas/MonitoringConfiguration'
           minProperties: 1  
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
 
     MonitoringConfiguration:
       type: object
@@ -136,7 +136,7 @@ components:
         maxNumOfReports:
           $ref: '#/components/schemas/MaxNumOfReports'
         monitoringDuration:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
 
     MonitoringReport:
       type: object
@@ -162,7 +162,7 @@ components:
         - newPei
       properties:
         newPei:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Pei'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Pei'
 
     RoamingStatusReport:
       type: object
@@ -174,7 +174,7 @@ components:
           type:
             boolean
         newServingPlmn:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PlmnId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PlmnId'
 
 # SIMPLE TYPES:
 

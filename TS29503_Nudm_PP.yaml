@@ -28,7 +28,7 @@ paths:
           description: Identifier of the UE
           required: true
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Gpsi'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Gpsi'
       requestBody:
         content:
           application/merge-patch+json:
@@ -45,7 +45,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
 
 
 components: 
@@ -67,7 +67,7 @@ components:
         communicationCharacteristics:
           $ref: '#/components/schemas/CommunicationCharacteristics'
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
 
     CommunicationCharacteristics:
       type: object
@@ -87,9 +87,9 @@ components:
         - referenceId
       properties:
         subsRegTimer:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DurationSec'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DurationSec'
         afId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         referenceId:
           $ref: '#/components/schemas/ReferenceId'
       nullable: true
@@ -102,9 +102,9 @@ components:
         - referenceId
       properties:
         activeTime:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DurationSec'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DurationSec'
         afId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         referenceId:
           $ref: '#/components/schemas/ReferenceId'
       nullable: true

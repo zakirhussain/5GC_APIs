@@ -37,13 +37,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         default:
           description: Unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
 
   /{supi}/auth-events:
     post:
@@ -57,7 +57,7 @@ paths:
           description: SUPI of the user
           required: true
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
       requestBody:
         content:
           application/json:
@@ -76,13 +76,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         default:
           description: Unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
 
 components:
   securitySchemes:
@@ -103,7 +103,7 @@ components:
         - servingNetworkName
       properties:
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
         servingNetworkName:
           $ref: '#/components/schemas/ServingNetworkName'
         resynchronizationInfo:
@@ -114,11 +114,11 @@ components:
       
       properties:
         supportedFeatures:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/SupportedFeatures'
         authenticationVector:
           $ref: '#/components/schemas/AuthenticationVector'
         supi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
 
     AuthenticationVector:
       oneOf:
@@ -193,11 +193,11 @@ components:
         - authType
       properties:
         nfInstanceId:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/NfInstanceId'
         success:
           $ref: '#/components/schemas/Success'
         timeStamp:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/DateTime'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/DateTime'
         authType:
           $ref: '#/components/schemas/AuthType'
 

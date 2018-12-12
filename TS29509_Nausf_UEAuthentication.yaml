@@ -26,19 +26,19 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         '403':
           description: Fordidden due to serving network not authorized
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         '500':
           description: Internal Server Error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /ue-authentications/{authCtxId}/5g-aka-confirmation:
     put:
@@ -66,13 +66,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         '500':
           description: Internal Server Error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /ue-authentications/{authCtxId}/eap-session:
     post:
@@ -106,7 +106,7 @@ paths:
                     type: object
                     description: 'URI : /{eapSessionUri}'
                     additionalProperties:
-                      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/LinksValueSchema'
+                      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/LinksValueSchema'
                 required:
                   - eapPayload
                   - _links
@@ -115,13 +115,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         '500':
           description: Internal Server Error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
 components:
   schemas:
@@ -130,11 +130,11 @@ components:
       type: object
       properties:
         supiOrSuci:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UEAU.yaml#/components/schemas/SupiOrSuci'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UEAU.yaml#/components/schemas/SupiOrSuci'
         servingNetworkName:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UEAU.yaml#/components/schemas/ServingNetworkName'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UEAU.yaml#/components/schemas/ServingNetworkName'
         resynchronizationInfo:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UEAU.yaml#/components/schemas/ResynchronizationInfo'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UEAU.yaml#/components/schemas/ResynchronizationInfo'
       required:
         - supiOrSuci
         - servingNetworkName
@@ -143,9 +143,9 @@ components:
       type: object
       properties:
         supi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
         authType:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UEAU.yaml#/components/schemas/AuthType'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UEAU.yaml#/components/schemas/AuthType'
         5gAuthData:
           oneOf:
             - $ref: '#/components/schemas/Av5gAka'
@@ -153,9 +153,9 @@ components:
         _links:
           type: object
           additionalProperties:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/LinksValueSchema'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/LinksValueSchema'
         servingNetworkName:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UEAU.yaml#/components/schemas/ServingNetworkName'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UEAU.yaml#/components/schemas/ServingNetworkName'
       required:
         - supi
         - authType
@@ -171,11 +171,11 @@ components:
         - kseaf
       properties:
         rand:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UEAU.yaml#/components/schemas/Rand'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UEAU.yaml#/components/schemas/Rand'
         hxresStar:
           $ref: '#/components/schemas/HxresStar'
         autn:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UEAU.yaml#/components/schemas/Autn'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UEAU.yaml#/components/schemas/Autn'
         kSeaf:
           $ref: '#/components/schemas/Kseaf'
           
@@ -193,7 +193,7 @@ components:
         authResult:
           $ref: '#/components/schemas/AuthResult'
         supi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
       required:
         - authResult
         
@@ -207,9 +207,9 @@ components:
         _links:
           type: object
           additionalProperties:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/LinksValueSchema'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/LinksValueSchema'
         supi:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
       required:
         - eapPayload
 

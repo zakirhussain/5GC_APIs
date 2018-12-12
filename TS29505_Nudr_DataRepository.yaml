@@ -40,7 +40,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'                
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'                
     patch:
       summary: modify the authentication data of a UE
       operationId: ModifyAuthData
@@ -59,7 +59,7 @@ paths:
             schema:
               type: array
               items:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PatchItem'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PatchItem'
         required: true
       responses:
         '204':
@@ -69,13 +69,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         default:
           description: Unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/{servingPlmnId}/provisioned-data/am-data:
     get:
@@ -108,7 +108,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/{servingPlmnId}/provisioned-data/smf-selection-subscription-data:
     get:
@@ -141,7 +141,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{supi}/{servingPlmnId}/provisioned-data/sm-data:
     get:
@@ -155,7 +155,7 @@ paths:
           description: SUPI
           required: true
           schema:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Supi'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Supi'
         - name: servingPlmnId
           in: path
           description: PLMN ID
@@ -186,7 +186,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/context-data/amf-3gpp-access:
     get:
@@ -213,7 +213,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     put:
       summary: To store the AMF context data of a UE using 3gpp access in the UDR
       operationId: CreateAmfContext3gpp
@@ -239,7 +239,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     patch:
       summary: To modify the AMF context data of a UE using 3gpp access in the UDR
       operationId: AmfContext3gpp
@@ -258,7 +258,7 @@ paths:
             schema:
               type: array
               items:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PatchItem'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PatchItem'
         required: true
       responses:
         '204':
@@ -268,13 +268,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         default:
           description: Unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/context-data/amf-non-3gpp-access:
     get:
@@ -301,7 +301,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     put:
       summary: To store the AMF context data of a UE using non-3gpp access in the UDR
       operationId: CreateAmfContextNon3gpp
@@ -327,7 +327,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     patch:
       summary: To modify the AMF context data of a UE using non 3gpp access in the UDR
       operationId: AmfContextNon3gpp
@@ -346,7 +346,7 @@ paths:
             schema:
               type: array
               items:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PatchItem'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PatchItem'
         required: true
       responses:
         '204':
@@ -356,13 +356,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         default:
           description: Unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/context-data/smf-registrations:
     get:
@@ -389,7 +389,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/context-data/smf-registrations/{pduSessionId}:
     get:
@@ -422,7 +422,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     put:
       summary: To create an individual SMF context data of a UE in the UDR
       operationId: CreateSmfContextNon3gpp
@@ -454,7 +454,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     delete:
       summary: To remove an individual SMF context data of a UE the UDR
       operationId: DeleteSmfContext
@@ -481,7 +481,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscriber-data/{ueId}/operator-specific-data:
     get:
@@ -508,7 +508,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     patch:
       summary: To modify operator specific data of a UE
       operationId: AmfContext3gpp
@@ -527,7 +527,7 @@ paths:
             schema:
               type: array
               items:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/PatchItem'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/PatchItem'
         required: true
       responses:
         '204':
@@ -537,13 +537,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         default:
           description: Unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscriber-data/{ueId}/context-data/smsf-3gpp-access:
     put:
@@ -571,7 +571,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     delete:
       summary: To remove the SMSF context data of a UE via 3GPP access 
       operationId: DeleteSmsfContext3gpp
@@ -592,7 +592,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     get:
       summary: Retrieves the SMSF context data of a UE using 3gpp access
       operationId: QuerySmsfContext3gpp
@@ -617,7 +617,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscriber-data/{ueId}/context-data/smsf-non-3gpp-access:
     put:
@@ -645,7 +645,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     delete:
       summary: To remove the SMSF context data of a UE via non-3GPP access 
       operationId: DeleteSmsfContextNon3gpp
@@ -666,7 +666,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     get:
       summary: Retrieves the SMSF context data of a UE using non-3gpp access
       operationId: QuerySmsfContextNon3gpp
@@ -691,7 +691,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/{servingPlmnId}/provisioned-data/sms-mng-data:
     get:
@@ -724,7 +724,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/{servingPlmnId}/provisioned-data/sms-data:
     get:
@@ -757,7 +757,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/pp-data:
     get:
@@ -784,13 +784,13 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
         default:
           description: Unexpected error
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
                 
   /subscription-data/{ueId}/context-data/ee-subscriptions:
     get:
@@ -819,7 +819,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     post:
       summary: Create individual EE subscription
       operationId: CreateEeSubscriptions
@@ -850,7 +850,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
 
   /subscription-data/{ueId}/context-data/ee-subscriptions/{subsId}:
     put:
@@ -882,7 +882,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     delete:
       summary: Deletes a eeSubscription
       operationId: RemoveeeSubscriptions
@@ -931,7 +931,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     post:
       summary: Create individual sdm subscription
       operationId: CreateSdmSubscriptions
@@ -962,7 +962,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
 
   /subscription-data/{ueId}/context-data/sdm-subscriptions/{subsId}:  
     put:
@@ -994,7 +994,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
     delete:
       summary: Deletes a sdmsubscriptions
       operationId: RemovesdmSubscriptions
@@ -1047,7 +1047,7 @@ paths:
           content:
             application/problem+json:
               schema:
-                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
+                $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/ProblemDetails'
       callbacks:
         onDataChange:
           '{request.body#/callbackReference}':
@@ -1107,27 +1107,27 @@ components:
       type: string
       pattern: '[0-9]{5,6}'
     AccessAndMobilitySubscriptionData:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_SDM.yaml#/components/schemas/AccessAndMobilitySubscriptionData'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_SDM.yaml#/components/schemas/AccessAndMobilitySubscriptionData'
     SmfSelectionSubscriptionData:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_SDM.yaml#/components/schemas/SmfSelectionSubscriptionData'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_SDM.yaml#/components/schemas/SmfSelectionSubscriptionData'
     VarSnssai:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Snssai'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Snssai'
     Dnn:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Dnn'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Dnn'
     SessionManagementSubscriptionData:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_SDM.yaml#/components/schemas/SessionManagementSubscriptionData'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_SDM.yaml#/components/schemas/SessionManagementSubscriptionData'
     Amf3GppAccessRegistration:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UECM.yaml#/components/schemas/Amf3GppAccessRegistration'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UECM.yaml#/components/schemas/Amf3GppAccessRegistration'
     AmfNon3GppAccessRegistration:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UECM.yaml#/components/schemas/AmfNon3GppAccessRegistration'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UECM.yaml#/components/schemas/AmfNon3GppAccessRegistration'
     SmfRegistration:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UECM.yaml#/components/schemas/SmfRegistration'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UECM.yaml#/components/schemas/SmfRegistration'
     SmsfRegistration:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_UECM.yaml#/components/schemas/SmsfRegistration'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_UECM.yaml#/components/schemas/SmsfRegistration'
     SmsManagementSubscriptionData:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_SDM.yaml#/components/schemas/SmsManagementSubscriptionData'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_SDM.yaml#/components/schemas/SmsManagementSubscriptionData'
     SmsSubscriptionData:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_SDM.yaml#/components/schemas/SmsSubscriptionData'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_SDM.yaml#/components/schemas/SmsSubscriptionData'
     OperatorSpecificDataContainer:
       properties:
         StringTypeElements:
@@ -1152,11 +1152,11 @@ components:
         - 5G_AKA
         - EAP_AKA_PRIME
     PpData:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_PP.yaml#/components/schemas/PpData'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_PP.yaml#/components/schemas/PpData'
     EeSubscription:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_EE.yaml#/components/schemas/EeSubscription'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_EE.yaml#/components/schemas/EeSubscription'
     SdmSubscription:
-      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29503_Nudm_SDM.yaml#/components/schemas/SdmSubscription'
+      $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29503_Nudm_SDM.yaml#/components/schemas/SdmSubscription'
     SmfRegList:
       type: array
       items:
@@ -1171,18 +1171,18 @@ components:
         ueId:
           type: string
         callbackReference:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         originalCallbackReference:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         monitoredResourceUri:
           type: array
           items:
-            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+            $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
     DataChangeNotify:
       type: object
       properties:
         originalCallbackReference:
-          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/master/TS29571_CommonData.yaml#/components/schemas/Uri'
+          $ref: 'https://raw.githubusercontent.com/jdegre/5GC_APIs/f00/TS29571_CommonData.yaml#/components/schemas/Uri'
         accessAndMobilitySubscriptionData: 
           $ref: '#/components/schemas/AccessAndMobilitySubscriptionData'
         smfSelectionSubscriptionData: 

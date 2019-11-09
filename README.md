@@ -23,7 +23,7 @@ The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI
 
 <!-- APIs -->
 ## NRF (NF Repository Function)
-* [NF Management](https://zakirhussain.github.io/5gc_apis/loader.html?yaml=TS29510_Nnrf_NFManagement.yaml)
+* [NF Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29510_Nnrf_NFManagement.yaml)
 * [NF Discovery](https://zakirhussain.github.io/5gc_apis/loader.html?yaml=TS29510_Nnrf_NFDiscovery.yaml)
 * [Access Token (OAuth2)](https://zakirhussain.github.io/5gc_apis/loader.html?yaml=TS29510_Nnrf_AccessToken.yaml)
 ## LMF (Location Management Function)

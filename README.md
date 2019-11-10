@@ -66,8 +66,10 @@ The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI
 ## 5G-EIR (5G Equipment Identity Register)
 * [Equipment Identity Check](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5GC_APIs/master/TS29511_N5g-eir_EquipmentIdentityCheck.yaml)
 
+<!-- 
 ## NEF (Network Exposure Function)
 * [Packet Flow Description (PFD) Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5GC_APIs/master/TS29551_Nnef_PFDmanagement.yaml)
+-->
 
 ## PCF (Policy Control Function)
 * [Policy Authorization](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5GC_APIs/master/TS29514_Npcf_PolicyAuthorization.yaml)

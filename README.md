@@ -13,11 +13,6 @@ Other releases: [Rel-15 (Frozen)](https://github.com/zakirhussain/5gc_apis/tree/
 - [Info about 3GPP Releases and their status](https://www.3gpp.org/specifications/67-releases)
 <br/><br/>
 
-## Tools
-* [API Parser/Validator and Linter](https://zakirhussain.github.io/parser.html) 
-* [Data Type Finder](https://zakirhussain.github.io/types.html)
-<br/><br/>
-
 The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI YAML file of each Network Function (NF) API:
 <br/>
 
@@ -45,10 +40,10 @@ The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI
 * [NIDD Authorization](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29503_Nudm_NIDDAU.yaml)
 ## UDR (Unified Data Repository)
 * [Data Repository](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29504_Nudr_DataRepository.yaml)
-  * [Subscription Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29505_Subscription_Data.yaml)
-  * [Policy Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Policy_Data.yaml)
-  * [Exposure Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Exposure_Data.yaml)
-  * [Application Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Application_Data.yaml)
+* [Subscription Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29505_Subscription_Data.yaml)
+* [Policy Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Policy_Data.yaml)
+* [Exposure Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Exposure_Data.yaml)
+* [Application Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Application_Data.yaml)
 ## AUSF (Authentication Server Function)
 * [UE Authentication](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29509_Nausf_UEAuthentication.yaml)
 * [SoR (Steering of Roaming) Protection](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29509_Nausf_SoRProtection.yaml)

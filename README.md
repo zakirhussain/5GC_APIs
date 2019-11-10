@@ -11,7 +11,7 @@ API version: **September 2019**<br/>
 Release status: **Open** <sup>&#x2705;</sup><br/>
 Other releases: [Rel-15 (Frozen)](https://github.com/zakirhussain/5gc_apis/tree/Rel-15)<br/>
 - [Info about 3GPP Releases and their status](https://www.3gpp.org/specifications/67-releases)
-<br/><br/>
+<br/>
 
 The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI YAML file of each Network Function (NF) API:
 <br/>
@@ -21,16 +21,20 @@ The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI
 * [NF Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29510_Nnrf_NFManagement.yaml)
 * [NF Discovery](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29510_Nnrf_NFDiscovery.yaml)
 * [Access Token (OAuth2)](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29510_Nnrf_AccessToken.yaml)
+
 ## LMF (Location Management Function)
 * [Location](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29572_Nlmf_Location.yaml)
+
 ## AMF (Access and Mobility Management Function)
 * [Communication](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29518_Namf_Communication.yaml)
 * [Event Exposure](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29518_Namf_EventExposure.yaml)
 * [Location](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29518_Namf_Location.yaml)
 * [MT](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29518_Namf_MT.yaml)
+
 ## SMF (Session Management Function)
 * [PDU Session](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29502_Nsmf_PDUSession.yaml)
 * [Event Exposure](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29508_Nsmf_EventExposure.yaml)
+
 ## UDM (Unified Data Management)
 * [Subscriber Data Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29503_Nudm_SDM.yaml)
 * [UE Context Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29503_Nudm_UECM.yaml)

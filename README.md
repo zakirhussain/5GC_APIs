@@ -17,6 +17,7 @@ The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI
 <br/>
 
 <!-- APIs -->
+
 ## NRF (NF Repository Function)
 * [NF Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29510_Nnrf_NFManagement.yaml)
 * [NF Discovery](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29510_Nnrf_NFDiscovery.yaml)
@@ -42,25 +43,32 @@ The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI
 * [Event Exposure](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29503_Nudm_EE.yaml)
 * [Parameter Provisioning](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29503_Nudm_PP.yaml)
 * [NIDD Authorization](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29503_Nudm_NIDDAU.yaml)
+
 ## UDR (Unified Data Repository)
 * [Data Repository](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29504_Nudr_DataRepository.yaml)
 * [Subscription Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29505_Subscription_Data.yaml)
 * [Policy Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Policy_Data.yaml)
 * [Exposure Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Exposure_Data.yaml)
 * [Application Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29519_Application_Data.yaml)
+
 ## AUSF (Authentication Server Function)
 * [UE Authentication](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29509_Nausf_UEAuthentication.yaml)
 * [SoR (Steering of Roaming) Protection](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29509_Nausf_SoRProtection.yaml)
 * [UPU (UE Parameter Update) Protection](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29509_Nausf_UPUProtection.yaml)
+
 ## NSSF (Network Slice Selection Function)
 * [NSSAI Availability](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29531_Nnssf_NSSAIAvailability.yaml)
 * [NS Selection](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29531_Nnssf_NSSelection.yaml)
+
 ## SMSF (SMS Function)
 * [SM Service](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29540_Nsmsf_SMService.yaml)
+
 ## 5G-EIR (5G Equipment Identity Register)
 * [Equipment Identity Check](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29511_N5g-eir_EquipmentIdentityCheck.yaml)
+
 ## NEF (Network Exposure Function)
 * [Packet Flow Description (PFD) Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29551_Nnef_PFDmanagement.yaml)
+
 ## PCF (Policy Control Function)
 * [Policy Authorization](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29514_Npcf_PolicyAuthorization.yaml)
 * [Access and Mobility (AM) Policy Control](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29507_Npcf_AMPolicyControl.yaml)
@@ -68,20 +76,27 @@ The links below will open the Swagger Editor (v3.6.23) and auto-load the OpenAPI
 * [Background Data Transfer (BDT) Policy Control](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29554_Npcf_BDTPolicyControl.yaml)
 * [Policy Control Event Exposure](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29523_Npcf_EventExposure.yaml)
 * [UE Policy Control](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29525_Npcf_UEPolicyControl.yaml)
+
 ## BSF (Binding Support Function)
 * [Management](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29521_Nbsf_Management.yaml)
+
 ## NWDAF (Network Data Analytics Function)
 * [Events Subscription](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29520_Nnwdaf_EventsSubscription.yaml)
 * [Analytics Info](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29520_Nnwdaf_AnalyticsInfo.yaml)
+
 ## HSS (Home Subscriber Server)
 * [UE Authentication](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29563_Nhss_UEAU.yaml)
+
 ## AF (Application Function)
 * [Event Exposure](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29517_Naf_EventExposure.yaml)
+
 ## CHF (Charging Function)
 * [Spending Limit Control](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29594_Nchf_SpendingLimitControl.yaml)
 * [Converged Charging](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS32291_Nchf_ConvergedCharging.yaml)
+
 ## Common Data Types
 * [Common Data](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29571_CommonData.yaml)
+
 ## SEPP N32 APIs
 * [Handshake (N32-c)](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29573_N32_Handshake.yaml)
 * [Forwarding (N32-f)](https://editor.swagger.io/?url=https://raw.githubusercontent.com/zakirhussain/5gc_apis/master/TS29573_JOSEProtectedMessageForwarding.yaml)

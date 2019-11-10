@@ -9,7 +9,7 @@ All rights reserved.
 ```
 API version: **September 2019**<br/>
 Release status: **Open** <sup>&#x2705;</sup><br/>
-Other releases: [Rel-15 (Frozen)](https://github.com/zakirhussain/5gc_apis/tree/Rel-15)<br/>
+Other releases: [Rel-15 (Frozen)]<br/>
 - [Info about 3GPP Releases and their status](https://www.3gpp.org/specifications/67-releases)
 <br/>
 
